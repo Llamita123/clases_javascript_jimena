@@ -2,7 +2,7 @@
 const circulo = document.querySelector("circle");
 const boton = document.getElementById("cambiar-color");
 
-const colores = ["tomato", "green", "royalblue", "orange", "purple"];
+const colores = ["tomato", "green", "royalblue", "orange", "purple", "Yellow", "Black"];
 let i = 0;
 
 boton.addEventListener("click", () => {

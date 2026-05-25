@@ -9,4 +9,6 @@ boton.addEventListener("click", (event) => {
     resultados.textContent = `Clic #${contador} en (${event.clientX}, ${event.clientY})`;
 });
 
-window.addEventListener("click", () => console.log("Clic en pantalla"));
+window.addEventListener("click", (event) => {
+    alert(`Clic en pantalla en (${event.clientX}, ${event.clientY}): `);
+});
